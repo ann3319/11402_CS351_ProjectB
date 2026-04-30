@@ -8,3 +8,25 @@
 - Displaying query results clearly and consistently 
 
 This project emphasizes data parsing, internal representation of tabular data, and the design of a simple execution pipeline for queries, The final result is a mini database engine that demonstrates how structured data can be stored, searched, and queried without a full-scale DBMS.
+
+
+# CSV Mini Database
+
+## Project Description
+
+This project implements a mini database system using Python.
+
+Features:
+- Load CSV files
+- Store data in memory
+- SELECT query
+- WHERE condition
+- Display results
+
+## Example Commands
+
+SELECT Name FROM table
+
+SELECT Name FROM table WHERE Dept=CS
+
+EXIT
