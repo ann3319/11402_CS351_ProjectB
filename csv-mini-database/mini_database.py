@@ -1,3 +1,4 @@
+print("PROGRAM STARTED")
 import csv
 
 # 載入CSV
