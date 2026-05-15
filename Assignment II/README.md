@@ -111,6 +111,7 @@ BDD 的常見格式是 Given–When–Then：
 ．Refactor：在測試通過後，重構程式碼以提升品質與可維護性。
 
 TDD 的好處是能確保程式在開發過程中持續符合需求，並且降低錯誤率。它讓程式碼更容易維護，也能提升團隊合作的效率。
+
 ---
 
 ## 7. TDD: Student Grade Calculator
@@ -144,6 +145,7 @@ TDD 的好處是能確保程式在開發過程中持續符合需求，並且降�
 #### Test Case 2:
 輸入分數：[90, -5, 85]
 預期結果：系統回報「分數不可為負數」錯誤訊息，不產生等級。
+
 ---
 
 ## 8. Comparison of SDD, BDD, and TDD
@@ -178,10 +180,12 @@ TDD 的好處是能確保程式在開發過程中持續符合需求，並且降�
 
 **6.If you use AI tools in future software projects, how would you combine SDD, BDD, and TDD?**
 先用 SDD 定義需求，確保 AI 生成程式的方向正確；再用 BDD 撰寫行為場景，讓團隊與 AI 都能理解使用者的期待；最後用 TDD 撰寫測試案例，持續驗證 AI 生成的程式是否正確。
+
 ---
 
 ## 10. References / AI Tool Usage
 **AI 工具**
+
 ．使用了Copilot 來整理作業結構、撰寫Markdown範本、設計原創案例（SDD、BDD、TDD）以及比較表格。
 ．使用了ChatGPT來理解 SDD、BDD、TDD 的定義，並提供反思部分的參考
 ．內容生成後，我都有審閱與修改
