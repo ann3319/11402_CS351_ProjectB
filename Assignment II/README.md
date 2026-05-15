@@ -10,12 +10,15 @@
 ## 1. Introduction
 
 **1.What AI-assisted software development is.**
+
 利用AI協助使用者完成各項任務，包括撰寫程式碼、debug、生成測試案例、系統設計……等，旨在提高開發效率和品質
 
 **2.Why clear requirements are important when using AI tools.**
+
 AI工具的輸出內容高度依賴輸入指令，不明確的需求會使AI產出錯誤的邏輯和幻覺，明確的指令才能引導AI產生正確且可用的結果
 
 **3.Why SDD, BDD, and TDD are useful in the AI era.**
+
 這三種方法為AI提供結構化的指引
 ．SDD提供系統化的全景藍圖，避免AI生成片段化、難以整合的代碼
 ．BDD透過自然語言描述行為，讓AI能根據實際使用者情境生成精準的功能
