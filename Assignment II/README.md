@@ -164,21 +164,27 @@ TDD 的好處是能確保程式在開發過程中持續符合需求，並且降�
 
 ## 9. Reflection
 **1.Which approach is easiest for you to understand: SDD, BDD, or TDD? Why?**
+
 我覺得最容易理解的是BDD，因為它使用Given–When–Then的格式，把需求轉換成行為場景，非技術人員也能快速理解。相比之下，SDD 偏向文件化，雖然完整但較抽象；TDD 則需要先寫測試再寫程式，對初學者來說需要更多程式經驗才能掌握。
 
 **2.Which approach is most useful when working with AI coding tools? Why?**
+
 最有效的方法是SDD。因為AI 需要清楚的提示才能產生正確結果，而SDD的規格能把需求拆解成目標、輸入、輸出與限制，避免模糊的指令導致AI生成錯誤或不完整的程式，確保生成方向正確。
 
 **3.How can SDD help reduce unclear AI prompts?**
+
 因為SDD因為它會先規劃系統架構、模組功能與資料流程。有了清楚的設計後，提供給AI的指令就會更明確，例如要實作哪些功能、輸入輸出格式是什麼，AI便能更準確地產生程式碼。
 
 **4.How can BDD help describe user expectations?**
+
 因為BDD強調以使用者角度撰寫需求，例如「當使用者登入時，系統應顯示歡迎訊息」。這種方式能讓開發者與使用者更容易理解需求，也能讓AI更清楚知道功能目標。
 
 **5.How can TDD help check whether AI-generated code is correct?**
+
 只要把 AI 生成的程式放入測試案例中，透過事先設計好的測試案例，可以驗證程式是否符合需求，避免AI生成看似正確但實際有問題的程式碼。
 
 **6.If you use AI tools in future software projects, how would you combine SDD, BDD, and TDD?**
+
 先用 SDD 定義需求，確保 AI 生成程式的方向正確；再用 BDD 撰寫行為場景，讓團隊與 AI 都能理解使用者的期待；最後用 TDD 撰寫測試案例，持續驗證 AI 生成的程式是否正確。
 
 ---
